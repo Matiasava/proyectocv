@@ -76,11 +76,17 @@ line-height: 50px;
     text-align: left;
     margin-top: 0px;
     margin-left: 0px;
+    background-color: bisque;
+    border-radius: .5em; 
+    opacity: 0.5;
+    
+    
 
 }
 .c4 h2
 {
 text-align: center;
+
 }
 
 .imagen
@@ -115,9 +121,20 @@ font-size: 15px;
 {
 margin-top: 0px;
 margin-bottom: 0px;
+opacity: 1;
 
 }
 .b1
 {
 display: none;
+}
+.hr
+ {
+   height: 5px;
+ background-color: black;
+ }
+.texto
+{
+opacity: 1;
+
 }
