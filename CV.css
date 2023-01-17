@@ -82,6 +82,7 @@ line-height: 50px;
 {
 text-align: center;
 x
+font-size: 30px;
 }
 
 .imagen
@@ -102,7 +103,6 @@ border-radius: 2em;
     height: auto;
     width: 500;
     border-radius: .5em;
-    float: inline-start;
     background-image: url( https://media.istockphoto.com/id/1250244754/es/foto/textura-de-papel-ecol%C3%B3gico-fondo-para-dise%C3%B1o-espacio-de-copia.jpg?s=612x612&w=0&k=20&c=5PAJZcBcmpZPeMKjWMPOeIdi1jfkMSke1_mgrg16jpE=)
     
     
@@ -142,11 +142,17 @@ display: none;
 .hr
  {
    height: 5px;
- background-color: black;
- width: 500px;
+ background-color: rgb(14, 107, 99);
+ width: 700px;
+ margin: 0px;
  }
 .texto
 {
 opacity: 1;
 
+}
+
+h2{
+
+font-family: 'Roboto', sans-serif;
 }
