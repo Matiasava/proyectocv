@@ -73,21 +73,15 @@ line-height: 50px;
 {
     grid-column: 5;
     grid-row: 6;
-   
     text-align: left;
     margin-top: 0px;
     margin-left: 0px;
-    background-color: bisque;
-    border-radius: .5em; 
-    opacity: 0.5;
     
-    
-
 }
 .c4 h2
 {
 text-align: center;
-
+x
 }
 
 .imagen
@@ -96,6 +90,22 @@ height: 150px ;
 border-radius: 2em;
 
 
+}
+.imagenc4
+{
+    grid-column: 5;
+    grid-row: 6;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    opacity: 0.5;
+    height: auto;
+    width: 500;
+    border-radius: .5em;
+    float: inline-start;
+    background-image: url( https://media.istockphoto.com/id/1250244754/es/foto/textura-de-papel-ecol%C3%B3gico-fondo-para-dise%C3%B1o-espacio-de-copia.jpg?s=612x612&w=0&k=20&c=5PAJZcBcmpZPeMKjWMPOeIdi1jfkMSke1_mgrg16jpE=)
+    
+    
 }
 .boton
 {
