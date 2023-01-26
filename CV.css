@@ -9,13 +9,14 @@
 }
 .body1{
  background-image: url('https://i.pinimg.com/564x/2d/4c/da/2d4cdad2b804009c283992039ee0b6df.jpg');
+width: auto;
 
 
      
 
 }
 .imagen1{
-/*float: left,;*/
+
 width: 130px;
 padding-left: 300px;
 padding-top: 30px;
@@ -31,9 +32,9 @@ height: 90%;
 margin: auto;
 grid-template-columns: 75px 75px 75px 75px auto;
 grid-template-rows: 30px 50px 50px 30px 0px auto;
-background-image: url('https://i.pinimg.com/564x/2d/4c/da/2d4cdad2b804009c283992039ee0b6df.jpg');
 
 }
+
 
 .caja
 {
@@ -45,17 +46,17 @@ line-height: 50px;
 
 .c1
 {
-   grid-column: 2 / 4;
+   grid-column: 2/3;
    grid-row: 1/5;
-      
-  border-top: 5px;
+   
+  
     
 }
 .c2
 {
     grid-column: 5;
     grid-row: 2/4;
-      
+     
        margin-left: 0px;
 }
 .c3
@@ -65,6 +66,7 @@ line-height: 50px;
     grid-row: 6;
     width: auto;
     margin-top: 0px;
+    margin-left: 80px;
  
     text-align: center;
     
@@ -76,37 +78,29 @@ line-height: 50px;
     text-align: left;
     margin-top: 0px;
     margin-left: 0px;
+    background:rgba(176, 216, 218, 0.7);
+    border-radius: 2em;
+
     
 }
 .c4 h2
 {
 text-align: center;
-x
+
 font-size: 30px;
+
 }
 
 .imagen
 {
 height: 150px ;
 border-radius: 2em;
+margin-top: 10px;
 
 
 }
-.imagenc4
-{
-    grid-column: 5;
-    grid-row: 6;
-    text-align: left;
-    margin-top: 0px;
-    margin-left: 0px;
-    opacity: 0.5;
-    height: auto;
-    width: 500;
-    border-radius: .5em;
-    background-image: url( https://media.istockphoto.com/id/1250244754/es/foto/textura-de-papel-ecol%C3%B3gico-fondo-para-dise%C3%B1o-espacio-de-copia.jpg?s=612x612&w=0&k=20&c=5PAJZcBcmpZPeMKjWMPOeIdi1jfkMSke1_mgrg16jpE=)
-    
-    
-}
+
+/* aspecto de botones  */
 .boton
 {
 width: 150px;
@@ -117,18 +111,23 @@ cursor: pointer;
 transition:background-color 1s  ;
 
 }
+
+/*color de transcicion*/
+
 .boton:hover
 {
 background-color: aqua;
 
 }
+
+/* texto del boton */
 .boton p
 {
 text-align: center;
 color: white;
 font-size: 15px;
 }
-.eduform
+.inicio
 {
 margin-top: 0px;
 margin-bottom: 0px;
@@ -148,6 +147,7 @@ display: none;
  }
 .texto
 {
+z-index: 1;
 opacity: 1;
 
 }
@@ -155,4 +155,11 @@ opacity: 1;
 h2{
 
 font-family: 'Roboto', sans-serif;
+}
+h1
+{
+
+font-family: 'Rowdies', cursive;
+font-size: 75px;
+
 }
