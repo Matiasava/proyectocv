@@ -1,4 +1,12 @@
 
+/*
+ cada funcion agraga o quita la clase b1 en los elementos que quiero mostrar segun el boton
+ donde se cliquea dejando como pretederminado el inicio donde dejo un resumen rapido de lo mas
+ importante 
+*/
+
+
+/* esta funcioan agrega la clase b1 (display none) a todos los elementos caja 4 excepto op2 que la remueve */
 function seleccion ()
  {
    document.getElementById("op1").classList.add("b1");
@@ -15,8 +23,12 @@ function seleccion ()
   {
     seleccion();
   }
+   
+  /* esta funcioan agrega la clase b1 (display none) a todos los elementos caja 4 excepto op3 que la remueve */
+
+  
     function seleccion1 ()
-     {
+    {
 
       document.getElementById("op1").classList.add("b1");
       document.getElementById("op2").classList.add("b1");
@@ -33,8 +45,10 @@ function seleccion ()
         seleccion1();
       }
 
+       /* esta funcioan agrega la clase b1 (display none) a todos los elementos caja 4 excepto op4 que la remueve */
+
         function seleccion2 ()
-         {
+        {
 
           document.getElementById("op1").classList.add("b1");
           document.getElementById("op2").classList.add("b1");
@@ -49,8 +63,11 @@ function seleccion ()
           {
             seleccion2();
           }
-            function seleccion3 ()
-             {
+           
+          /* esta funcioan agrega la clase b1 (display none) a todos los elementos caja 4 excepto op5 que la remueve */
+ 
+           function seleccion3 ()
+            {
 
               document.getElementById("op1").classList.add("b1");
               document.getElementById("op2").classList.add("b1");
@@ -66,7 +83,10 @@ function seleccion ()
               {
                 seleccion3();
               }
-                function seleccion4 ()
+                
+               /* esta funcioan agrega la clase b1 (display none) a todos los elementos caja 4 excepto op6 que la remueve */
+
+               function seleccion4 ()
                  {
 
                   document.getElementById("op1").classList.add("b1");
@@ -83,6 +103,10 @@ function seleccion ()
                   {
                     seleccion4();
                   }
+                    
+                  /* esta funcioan agrega la clase b1 (display none) a todos los elementos caja 4 excepto op7 que la remueve */
+ 
+
                     function seleccion5 ()
                      {
 
@@ -100,6 +124,9 @@ function seleccion ()
                       {
                         seleccion5();
                       }
+                        
+                      /* esta funcioan agrega la clase b1 (display none) a todos los elementos caja 4 excepto op1 que la remueve */
+
                         function seleccion6 ()
                          {
 

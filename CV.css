@@ -133,6 +133,7 @@ font-size: 15px;
 {
 margin-top: 0px;
 margin-bottom: 0px;
+text-align: center;
 
 }
 .b1
@@ -172,12 +173,14 @@ height: 50px;
 
 .boton2
 {
-width: 50px;
-height: 50px;
+width: 150px;
+height: 150px;
 border-radius: .5em ;
-background-color: rgb(236, 241, 241);
+background:rgba(176, 216, 218, 0.0);
 cursor: pointer;
 transition:background-color 1s ;
+text-align: left;
+margin-left: 280px;
 
 
 }
@@ -188,8 +191,7 @@ background-color: rgb(129, 176, 230);
 }
 .icon
 {
-width: 50px;
-font-size: 50px;
+width: 150px;
+font-size: 150px;
 text-align: center;
-
 }
